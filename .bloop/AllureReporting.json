@@ -1,0 +1,1428 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "AllureReporting",
+        "directory": "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW",
+        "workspaceDir": "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW",
+        "sources": [
+            "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\src\\main\\java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\target\\classes",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\4.52.0\\selenium-java-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\4.52.0\\selenium-api-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\4.52.0\\selenium-chrome-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chromium-driver\\4.52.0\\selenium-chromium-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-json\\4.52.0\\selenium-json-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-manager\\4.52.0\\selenium-manager-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-latest\\4.52.0\\selenium-devtools-latest-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v154\\4.52.0\\selenium-devtools-v154-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v155\\4.52.0\\selenium-devtools-v155-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v156\\4.52.0\\selenium-devtools-v156-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-edge-driver\\4.52.0\\selenium-edge-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\4.52.0\\selenium-firefox-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-ie-driver\\4.52.0\\selenium-ie-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-remote-driver\\4.52.0\\selenium-remote-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\guava\\33.7.2-jre\\guava-33.7.2-jre.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\failureaccess\\1.0.3\\failureaccess-1.0.3.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\j2objc\\j2objc-annotations\\3.1\\j2objc-annotations-3.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-api\\1.67.0\\opentelemetry-api-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-context\\1.67.0\\opentelemetry-context-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-common\\1.67.0\\opentelemetry-common-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-exporter-logging\\1.67.0\\opentelemetry-exporter-logging-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-common\\1.67.0\\opentelemetry-sdk-common-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure-spi\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-trace\\1.67.0\\opentelemetry-sdk-trace-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk\\1.67.0\\opentelemetry-sdk-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-metrics\\1.67.0\\opentelemetry-sdk-metrics-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-logs\\1.67.0\\opentelemetry-sdk-logs-1.67.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\jetbrains\\annotations\\26.1.0\\annotations-26.1.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-http\\4.52.0\\selenium-http-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-os\\4.52.0\\selenium-os-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-safari-driver\\4.52.0\\selenium-safari-driver-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-support\\4.52.0\\selenium-support-4.52.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi\\6.0.0\\poi-6.0.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\commons-codec\\commons-codec\\1.23.0\\commons-codec-1.23.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-collections4\\4.6.0\\commons-collections4-4.6.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\zaxxer\\SparseBitSet\\1.3\\SparseBitSet-1.3.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml\\6.0.0\\poi-ooxml-6.0.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml-lite\\6.0.0\\poi-ooxml-lite-6.0.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\xmlbeans\\xmlbeans\\5.4.1\\xmlbeans-5.4.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.28.0\\commons-compress-1.28.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\virtuald\\curvesapi\\1.08\\curvesapi-1.08.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.26.1\\log4j-api-2.26.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.26.1\\log4j-core-2.26.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\io\\github\\bonigarcia\\webdrivermanager\\6.4.0\\webdrivermanager-6.4.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.14.0\\gson-2.14.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.48.0\\error_prone_annotations-2.48.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java\\3.7.1\\docker-java-3.7.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-core\\3.7.1\\docker-java-core-3.7.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-api\\3.7.1\\docker-java-api-3.7.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.20\\jackson-annotations-2.20.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.20.1\\jackson-databind-2.20.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.20.1\\jackson-core-2.20.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\jcl-over-slf4j\\1.7.30\\jcl-over-slf4j-1.7.30.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport-httpclient5\\3.7.1\\docker-java-transport-httpclient5-3.7.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport\\3.7.1\\docker-java-transport-3.7.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\net\\java\\dev\\jna\\jna\\5.18.1\\jna-5.18.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\brotli\\dec\\0.1.2\\dec-0.1.2.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\client5\\httpclient5\\5.6.1\\httpclient5-5.6.1.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5\\5.4\\httpcore5-5.4.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5-h2\\5.4\\httpcore5-h2-5.4.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.22.0\\commons-lang3-3.22.0.jar",
+            "C:\\Users\\kalya\\.m2\\repository\\commons-io\\commons-io\\2.22.0\\commons-io-2.22.0.jar"
+        ],
+        "out": "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\target",
+        "classesDir": "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\target\\classes",
+        "resources": [
+            "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\src\\main\\resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "--release",
+                "25",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-25.0.2",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "D:\\Projects\\Eclipse Workspace\\Selenium_Java_Hybrid_Auto_FW\\target\\classes",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\4.52.0\\selenium-java-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\4.52.0\\selenium-api-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\4.52.0\\selenium-chrome-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chromium-driver\\4.52.0\\selenium-chromium-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-json\\4.52.0\\selenium-json-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-manager\\4.52.0\\selenium-manager-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-latest\\4.52.0\\selenium-devtools-latest-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v154\\4.52.0\\selenium-devtools-v154-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v155\\4.52.0\\selenium-devtools-v155-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v156\\4.52.0\\selenium-devtools-v156-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-edge-driver\\4.52.0\\selenium-edge-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\4.52.0\\selenium-firefox-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-ie-driver\\4.52.0\\selenium-ie-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-remote-driver\\4.52.0\\selenium-remote-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\guava\\33.7.2-jre\\guava-33.7.2-jre.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\failureaccess\\1.0.3\\failureaccess-1.0.3.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\j2objc\\j2objc-annotations\\3.1\\j2objc-annotations-3.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-api\\1.67.0\\opentelemetry-api-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-context\\1.67.0\\opentelemetry-context-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-common\\1.67.0\\opentelemetry-common-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-exporter-logging\\1.67.0\\opentelemetry-exporter-logging-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-common\\1.67.0\\opentelemetry-sdk-common-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure-spi\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-trace\\1.67.0\\opentelemetry-sdk-trace-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk\\1.67.0\\opentelemetry-sdk-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-metrics\\1.67.0\\opentelemetry-sdk-metrics-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-logs\\1.67.0\\opentelemetry-sdk-logs-1.67.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\jetbrains\\annotations\\26.1.0\\annotations-26.1.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-http\\4.52.0\\selenium-http-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-os\\4.52.0\\selenium-os-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-safari-driver\\4.52.0\\selenium-safari-driver-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-support\\4.52.0\\selenium-support-4.52.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi\\6.0.0\\poi-6.0.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\commons-codec\\commons-codec\\1.23.0\\commons-codec-1.23.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-collections4\\4.6.0\\commons-collections4-4.6.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\zaxxer\\SparseBitSet\\1.3\\SparseBitSet-1.3.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml\\6.0.0\\poi-ooxml-6.0.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml-lite\\6.0.0\\poi-ooxml-lite-6.0.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\xmlbeans\\xmlbeans\\5.4.1\\xmlbeans-5.4.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.28.0\\commons-compress-1.28.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\virtuald\\curvesapi\\1.08\\curvesapi-1.08.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.26.1\\log4j-api-2.26.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.26.1\\log4j-core-2.26.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\io\\github\\bonigarcia\\webdrivermanager\\6.4.0\\webdrivermanager-6.4.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.14.0\\gson-2.14.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.48.0\\error_prone_annotations-2.48.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java\\3.7.1\\docker-java-3.7.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-core\\3.7.1\\docker-java-core-3.7.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-api\\3.7.1\\docker-java-api-3.7.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.20\\jackson-annotations-2.20.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.20.1\\jackson-databind-2.20.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.20.1\\jackson-core-2.20.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\jcl-over-slf4j\\1.7.30\\jcl-over-slf4j-1.7.30.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport-httpclient5\\3.7.1\\docker-java-transport-httpclient5-3.7.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport\\3.7.1\\docker-java-transport-3.7.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\net\\java\\dev\\jna\\jna\\5.18.1\\jna-5.18.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\brotli\\dec\\0.1.2\\dec-0.1.2.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\client5\\httpclient5\\5.6.1\\httpclient5-5.6.1.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5\\5.4\\httpcore5-5.4.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5-h2\\5.4\\httpcore5-h2-5.4.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.22.0\\commons-lang3-3.22.0.jar",
+                "C:\\Users\\kalya\\.m2\\repository\\commons-io\\commons-io\\2.22.0\\commons-io-2.22.0.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-java-commons",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "allure-java-commons",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-java-commons\\3.1.1\\allure-java-commons-3.1.1.jar"
+                        },
+                        {
+                            "name": "allure-java-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-java-commons\\3.1.1\\allure-java-commons-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlbeans",
+                    "name": "xmlbeans",
+                    "version": "5.4.1",
+                    "artifacts": [
+                        {
+                            "name": "xmlbeans",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\xmlbeans\\xmlbeans\\5.4.1\\xmlbeans-5.4.1.jar"
+                        },
+                        {
+                            "name": "xmlbeans",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\xmlbeans\\xmlbeans\\5.4.1\\xmlbeans-5.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v154",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v154",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v154\\4.52.0\\selenium-devtools-v154-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v154",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v154\\4.52.0\\selenium-devtools-v154-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.30",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\jcl-over-slf4j\\1.7.30\\jcl-over-slf4j-1.7.30.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\jcl-over-slf4j\\1.7.30\\jcl-over-slf4j-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-java",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-java",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\4.52.0\\selenium-java-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\4.52.0\\selenium-java-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-latest",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-latest",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-latest\\4.52.0\\selenium-devtools-latest-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-latest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-latest\\4.52.0\\selenium-devtools-latest-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.22.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\commons-io\\commons-io\\2.22.0\\commons-io-2.22.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\commons-io\\commons-io\\2.22.0\\commons-io-2.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.20.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.20.1\\jackson-core-2.20.1.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.20.1\\jackson-core-2.20.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-safari-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-safari-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-safari-driver\\4.52.0\\selenium-safari-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-safari-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-safari-driver\\4.52.0\\selenium-safari-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-os",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-os",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-os\\4.52.0\\selenium-os-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-os",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-os\\4.52.0\\selenium-os-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents.core5",
+                    "name": "httpcore5-h2",
+                    "version": "5.4",
+                    "artifacts": [
+                        {
+                            "name": "httpcore5-h2",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5-h2\\5.4\\httpcore5-h2-5.4.jar"
+                        },
+                        {
+                            "name": "httpcore5-h2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5-h2\\5.4\\httpcore5-h2-5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents.client5",
+                    "name": "httpclient5",
+                    "version": "5.6.1",
+                    "artifacts": [
+                        {
+                            "name": "httpclient5",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\client5\\httpclient5\\5.6.1\\httpclient5-5.6.1.jar"
+                        },
+                        {
+                            "name": "httpclient5",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\client5\\httpclient5\\5.6.1\\httpclient5-5.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-testng",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "allure-testng",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-testng\\3.1.1\\allure-testng-3.1.1.jar"
+                        },
+                        {
+                            "name": "allure-testng",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-testng\\3.1.1\\allure-testng-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jspecify",
+                    "name": "jspecify",
+                    "version": "1.0.1",
+                    "artifacts": [
+                        {
+                            "name": "jspecify",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar"
+                        },
+                        {
+                            "name": "jspecify",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-logs",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-logs",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-logs\\1.67.0\\opentelemetry-sdk-logs-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-logs",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-logs\\1.67.0\\opentelemetry-sdk-logs-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.testng",
+                    "name": "testng",
+                    "version": "7.12.0",
+                    "artifacts": [
+                        {
+                            "name": "testng",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\testng\\testng\\7.12.0\\testng-7.12.0.jar"
+                        },
+                        {
+                            "name": "testng",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\testng\\testng\\7.12.0\\testng-7.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-context",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-context",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-context\\1.67.0\\opentelemetry-context-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-context",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-context\\1.67.0\\opentelemetry-context-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.20.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.20.1\\jackson-databind-2.20.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.20.1\\jackson-databind-2.20.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.23.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\commons-codec\\commons-codec\\1.23.0\\commons-codec-1.23.0.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\commons-codec\\commons-codec\\1.23.0\\commons-codec-1.23.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "3.1",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\j2objc\\j2objc-annotations\\3.1\\j2objc-annotations-3.1.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\j2objc\\j2objc-annotations\\3.1\\j2objc-annotations-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-remote-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-remote-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-remote-driver\\4.52.0\\selenium-remote-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-remote-driver\\4.52.0\\selenium-remote-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.18.1",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\net\\java\\dev\\jna\\jna\\5.18.1\\jna-5.18.1.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\net\\java\\dev\\jna\\jna\\5.18.1\\jna-5.18.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.poi",
+                    "name": "poi-ooxml-lite",
+                    "version": "6.0.0",
+                    "artifacts": [
+                        {
+                            "name": "poi-ooxml-lite",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml-lite\\6.0.0\\poi-ooxml-lite-6.0.0.jar"
+                        },
+                        {
+                            "name": "poi-ooxml-lite",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml-lite\\6.0.0\\poi-ooxml-lite-6.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-model",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "allure-model",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-model\\3.1.1\\allure-model-3.1.1.jar"
+                        },
+                        {
+                            "name": "allure-model",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\qameta\\allure\\allure-model\\3.1.1\\allure-model-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.26.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.26.1\\log4j-api-2.26.1.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.26.1\\log4j-api-2.26.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-chromium-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-chromium-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chromium-driver\\4.52.0\\selenium-chromium-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-chromium-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chromium-driver\\4.52.0\\selenium-chromium-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v155",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v155",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v155\\4.52.0\\selenium-devtools-v155-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v155",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v155\\4.52.0\\selenium-devtools-v155-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.14.0",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.14.0\\gson-2.14.0.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.14.0\\gson-2.14.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-core",
+                    "version": "2.26.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-core",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.26.1\\log4j-core-2.26.1.jar"
+                        },
+                        {
+                            "name": "log4j-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.26.1\\log4j-core-2.26.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.brotli",
+                    "name": "dec",
+                    "version": "0.1.2",
+                    "artifacts": [
+                        {
+                            "name": "dec",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\brotli\\dec\\0.1.2\\dec-0.1.2.jar"
+                        },
+                        {
+                            "name": "dec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\brotli\\dec\\0.1.2\\dec-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.poi",
+                    "name": "poi",
+                    "version": "6.0.0",
+                    "artifacts": [
+                        {
+                            "name": "poi",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi\\6.0.0\\poi-6.0.0.jar"
+                        },
+                        {
+                            "name": "poi",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi\\6.0.0\\poi-6.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.28.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.28.0\\commons-compress-1.28.0.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.28.0\\commons-compress-1.28.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-http",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-http",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-http\\4.52.0\\selenium-http-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-http\\4.52.0\\selenium-http-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-support",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-support",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-support\\4.52.0\\selenium-support-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-support\\4.52.0\\selenium-support-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "33.7.2-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\guava\\33.7.2-jre\\guava-33.7.2-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\guava\\33.7.2-jre\\guava-33.7.2-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.48.0",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.48.0\\error_prone_annotations-2.48.0.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.48.0\\error_prone_annotations-2.48.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars",
+                    "name": "jquery",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "jquery",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\webjars\\jquery\\3.7.1\\jquery-3.7.1.jar"
+                        },
+                        {
+                            "name": "jquery",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\webjars\\jquery\\3.7.1\\jquery-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-api",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-api",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-api\\1.67.0\\opentelemetry-api-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-api\\1.67.0\\opentelemetry-api-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.docker-java",
+                    "name": "docker-java-transport",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "docker-java-transport",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport\\3.7.1\\docker-java-transport-3.7.1.jar"
+                        },
+                        {
+                            "name": "docker-java-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport\\3.7.1\\docker-java-transport-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-edge-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-edge-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-edge-driver\\4.52.0\\selenium-edge-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-edge-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-edge-driver\\4.52.0\\selenium-edge-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-common",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-common",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-common\\1.67.0\\opentelemetry-sdk-common-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-common\\1.67.0\\opentelemetry-sdk-common-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-manager",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-manager",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-manager\\4.52.0\\selenium-manager-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-manager",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-manager\\4.52.0\\selenium-manager-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.18.15",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure-spi\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure-spi\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jcommander",
+                    "name": "jcommander",
+                    "version": "1.83",
+                    "artifacts": [
+                        {
+                            "name": "jcommander",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jcommander\\jcommander\\1.83\\jcommander-1.83.jar"
+                        },
+                        {
+                            "name": "jcommander",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jcommander\\jcommander\\1.83\\jcommander-1.83-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-chrome-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-chrome-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\4.52.0\\selenium-chrome-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-chrome-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\4.52.0\\selenium-chrome-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.docker-java",
+                    "name": "docker-java-transport-httpclient5",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "docker-java-transport-httpclient5",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport-httpclient5\\3.7.1\\docker-java-transport-httpclient5-3.7.1.jar"
+                        },
+                        {
+                            "name": "docker-java-transport-httpclient5",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-transport-httpclient5\\3.7.1\\docker-java-transport-httpclient5-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.6.1",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.22.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.22.0\\commons-lang3-3.22.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.22.0\\commons-lang3-3.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-collections4",
+                    "version": "4.6.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections4",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-collections4\\4.6.0\\commons-collections4-4.6.0.jar"
+                        },
+                        {
+                            "name": "commons-collections4",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\commons\\commons-collections4\\4.6.0\\commons-collections4-4.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.docker-java",
+                    "name": "docker-java-api",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "docker-java-api",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-api\\3.7.1\\docker-java-api-3.7.1.jar"
+                        },
+                        {
+                            "name": "docker-java-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-api\\3.7.1\\docker-java-api-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.virtuald",
+                    "name": "curvesapi",
+                    "version": "1.08",
+                    "artifacts": [
+                        {
+                            "name": "curvesapi",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\virtuald\\curvesapi\\1.08\\curvesapi-1.08.jar"
+                        },
+                        {
+                            "name": "curvesapi",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\virtuald\\curvesapi\\1.08\\curvesapi-1.08-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-ie-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-ie-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-ie-driver\\4.52.0\\selenium-ie-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-ie-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-ie-driver\\4.52.0\\selenium-ie-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains",
+                    "name": "annotations",
+                    "version": "26.1.0",
+                    "artifacts": [
+                        {
+                            "name": "annotations",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jetbrains\\annotations\\26.1.0\\annotations-26.1.0.jar"
+                        },
+                        {
+                            "name": "annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\jetbrains\\annotations\\26.1.0\\annotations-26.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-metrics",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-metrics",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-metrics\\1.67.0\\opentelemetry-sdk-metrics-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-metrics",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-metrics\\1.67.0\\opentelemetry-sdk-metrics-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-firefox-driver",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-firefox-driver",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\4.52.0\\selenium-firefox-driver-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\4.52.0\\selenium-firefox-driver-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.bonigarcia",
+                    "name": "webdrivermanager",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "webdrivermanager",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\github\\bonigarcia\\webdrivermanager\\6.4.0\\webdrivermanager-6.4.0.jar"
+                        },
+                        {
+                            "name": "webdrivermanager",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\github\\bonigarcia\\webdrivermanager\\6.4.0\\webdrivermanager-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.16",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v156",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v156",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v156\\4.52.0\\selenium-devtools-v156-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v156",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-devtools-v156\\4.52.0\\selenium-devtools-v156-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-exporter-logging",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-exporter-logging",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-exporter-logging\\1.67.0\\opentelemetry-exporter-logging-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-exporter-logging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-exporter-logging\\1.67.0\\opentelemetry-exporter-logging-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "SparseBitSet",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "SparseBitSet",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\zaxxer\\SparseBitSet\\1.3\\SparseBitSet-1.3.jar"
+                        },
+                        {
+                            "name": "SparseBitSet",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\zaxxer\\SparseBitSet\\1.3\\SparseBitSet-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.docker-java",
+                    "name": "docker-java",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "docker-java",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java\\3.7.1\\docker-java-3.7.1.jar"
+                        },
+                        {
+                            "name": "docker-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java\\3.7.1\\docker-java-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-api",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-api",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\4.52.0\\selenium-api-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\4.52.0\\selenium-api-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-json",
+                    "version": "4.52.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-json",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-json\\4.52.0\\selenium-json-4.52.0.jar"
+                        },
+                        {
+                            "name": "selenium-json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-json\\4.52.0\\selenium-json-4.52.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-extension-autoconfigure",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-extension-autoconfigure\\1.67.0\\opentelemetry-sdk-extension-autoconfigure-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.20",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.20\\jackson-annotations-2.20.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.20\\jackson-annotations-2.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.docker-java",
+                    "name": "docker-java-core",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "docker-java-core",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-core\\3.7.1\\docker-java-core-3.7.1.jar"
+                        },
+                        {
+                            "name": "docker-java-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\github\\docker-java\\docker-java-core\\3.7.1\\docker-java-core-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\failureaccess\\1.0.3\\failureaccess-1.0.3.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\com\\google\\guava\\failureaccess\\1.0.3\\failureaccess-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-common",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-common",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-common\\1.67.0\\opentelemetry-common-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-common\\1.67.0\\opentelemetry-common-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.poi",
+                    "name": "poi-ooxml",
+                    "version": "6.0.0",
+                    "artifacts": [
+                        {
+                            "name": "poi-ooxml",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml\\6.0.0\\poi-ooxml-6.0.0.jar"
+                        },
+                        {
+                            "name": "poi-ooxml",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\poi\\poi-ooxml\\6.0.0\\poi-ooxml-6.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents.core5",
+                    "name": "httpcore5",
+                    "version": "5.4",
+                    "artifacts": [
+                        {
+                            "name": "httpcore5",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5\\5.4\\httpcore5-5.4.jar"
+                        },
+                        {
+                            "name": "httpcore5",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\org\\apache\\httpcomponents\\core5\\httpcore5\\5.4\\httpcore5-5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk\\1.67.0\\opentelemetry-sdk-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk\\1.67.0\\opentelemetry-sdk-1.67.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-trace",
+                    "version": "1.67.0",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-trace",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-trace\\1.67.0\\opentelemetry-sdk-trace-1.67.0.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-trace",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\kalya\\.m2\\repository\\io\\opentelemetry\\opentelemetry-sdk-trace\\1.67.0\\opentelemetry-sdk-trace-1.67.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

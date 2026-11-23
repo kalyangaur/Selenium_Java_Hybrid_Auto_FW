@@ -67,9 +67,8 @@ public class TC001_AccountSignupTest extends BaseClass
     	}
     	catch (Exception e)
     	{
-			logger.error("Test failed");
-			logger.debug("Debug logs...");
-			Assert.fail();
+			logger.error("Test failed", e);
+			Assert.fail("Account signup failed", e);
     	
     	
     	}

@@ -95,13 +95,13 @@ public class BaseClass
 	    	    	objcapabilities.setBrowserName("chrome");
 	    	    	break;
 	    	    case "edge":
-	    	    	objcapabilities.setBrowserName("MicrossoftEdge");
+	    	    	objcapabilities.setBrowserName("MicrosoftEdge");
 	    	    	break;
 	    	    default: 
 	    	    	System.out.println("No Matching browser");
 	    	    }
                 
-	    	    URL gridURL = URI.create("http://localhost:4444").toURL();
+	    	    URL gridURL = URI.create("http://10.68.98.176:4444/").toURL();
 	    	    if(gridURL!=null)
 	    	    {
 	    	      driver = new RemoteWebDriver(gridURL, objcapabilities);

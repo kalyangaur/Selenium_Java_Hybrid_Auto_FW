@@ -140,7 +140,7 @@
 
                 <configuration>
                      <suiteXmlFiles>
-                       <suiteXmlFile>testng.xml</suiteXmlFile>
+                       <suiteXmlFile>crossbrowserparalleltesting.xml</suiteXmlFile>
                      </suiteXmlFiles>
                     <!-- AspectJ Java Agent for Allure -->
                     <argLine>

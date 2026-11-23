@@ -14,7 +14,6 @@ import pageObject.LoginPage;
 import utilities.Log;
 import utilities.ReportingListener;
 
-@Listeners({ReportingListener.class})
 public class TC002_Login  extends BaseClass
 {
 	 Logger logger = Log.getLogger();

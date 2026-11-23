@@ -3,19 +3,27 @@ package testCases;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
+import java.net.URI;
 import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import org.apache.commons.io.FileUtils;
 
+import org.testng.annotations.Listeners;
+import utilities.ReportingListener;
+
+@Listeners({ReportingListener.class}) 
 public class BaseClass 
 {
 	public WebDriver driver;
@@ -51,8 +59,8 @@ public class BaseClass
 	    }
 	   
 	    @BeforeClass(alwaysRun = true)
-	    @Parameters({"browser"})
-		public void setup(@Optional("chrome") String br) throws IOException
+	    @Parameters({"os", "browser"})
+		public void setup(String os, @Optional("chrome") String br) throws IOException
 		{     
 	    	//Read Properties file in resource folder to get data
 	    	p = new Properties();
@@ -61,19 +69,62 @@ public class BaseClass
 	    		p.load(objfilereader);
 	    	}
 	    	
-	    	switch(br.toLowerCase())
-	    	 {  
-	    	   case "chrome":
-	    		   driver = new ChromeDriver();
-	    		   break;
-	    	   case "edge" :
-	    		   driver = new  EdgeDriver();
-	    		   break;
-	    	   default :
-	    		   System.out.println("Invalid Browser Name");
-	    		   return;
+	    	//Remote machine execution - using Selenium Grid
+	    	//Select OS
+	    	if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
+	    	{
+               DesiredCapabilities objcapabilities = new  DesiredCapabilities();
+               
+               if("windows".equalsIgnoreCase(os)) 
+                {
+            	   objcapabilities.setPlatform(Platform.WIN11);
+	    	    }
+               else if("mac".equalsIgnoreCase(os)) 
+                {
+                	objcapabilities.setPlatform(Platform.MAC);
+                  }
+               else
+                {
+                    System.out.println("No Matching OS");
+                }
+	    	
+                //Select Browser
+	    	    switch(br.toLowerCase())
+	    	    {
+	    	    case "chrome" :
+	    	    	objcapabilities.setBrowserName("chrome");
+	    	    	break;
+	    	    case "edge":
+	    	    	objcapabilities.setBrowserName("MicrossoftEdge");
+	    	    	break;
+	    	    default: 
+	    	    	System.out.println("No Matching browser");
+	    	    }
+                
+	    	    URL gridURL = URI.create("http://localhost:4444").toURL();
+	    	    if(gridURL!=null)
+	    	    {
+	    	      driver = new RemoteWebDriver(gridURL, objcapabilities);
+	    	    }
 	    	}
 	    	
+	    	    //Local Machine Execution
+		    	if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+		    	 {
+		    		switch(br.toLowerCase())
+			    	 {  
+			    	   case "chrome":
+			    		   driver = new ChromeDriver();
+			    		   break;
+			    	   case "edge" :
+			    		   driver = new  EdgeDriver();
+			    		   break;
+			    	   default :
+			    		   System.out.println("Invalid Browser Name");
+			    		   return;
+			    	}
+ 	             }
+	    	    
 			tdriver.set(driver);
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Duration.ZERO);

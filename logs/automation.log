@@ -206,3 +206,10 @@
 2026-11-22 22:13:31 [main] INFO  Log - Execution of TC003_LoginDDT test case is completed
 2026-11-22 22:13:31 [main] INFO  Log - Test execution TC003_LoginDDT started
 2026-11-22 22:13:34 [main] INFO  Log - Login process started
+2026-11-23 15:53:02 [main] INFO  Log - Test execution started
+2026-11-23 15:53:13 [main] ERROR Log - Test failed
+2026-11-23 15:53:55 [main] INFO  Log - Test execution started
+2026-11-23 15:53:58 [main] INFO  Log - Signup Login process started
+2026-11-23 15:54:07 [main] INFO  Log - Signup filling details started
+2026-11-23 15:54:18 [main] INFO  Log - Verify SignUp is successfull
+2026-11-23 15:54:18 [main] INFO  Log - Signup completed successfully

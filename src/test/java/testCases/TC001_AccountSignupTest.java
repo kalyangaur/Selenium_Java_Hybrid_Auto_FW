@@ -19,7 +19,6 @@ import org.apache.logging.log4j.Logger;
 
 
 
-@Listeners({ReportingListener.class})
 public class TC001_AccountSignupTest extends BaseClass
 {   
 	  Logger logger = Log.getLogger();

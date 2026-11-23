@@ -55,20 +55,20 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 22 15:40:07 IST 2026</td>
+<td>Started on:</td><td>Mon Nov 23 17:32:46 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>286 seconds (286028 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (365 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Master </td>
+<td>Included groups:</td><td>Sanity </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,27 +76,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: Johncook@gmail.com, Ornage234, Valid</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)
+<td title='testCases.TC001_AccountSignupTest.setup()'><b>setup</b><br>Test class: testCases.TC001_AccountSignupTest<br>Parameters: windows, chrome</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testCases.BaseClass.setup(BaseClass.java:112)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace354764137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace354764137'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1015139714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1015139714'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testCases.BaseClass.setup(BaseClass.java:112)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:616)
@@ -114,11 +108,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>62</td>
-<td>testCases.TC003_LoginDDT@4c82b5df</td></tr>
+<td>0</td>
+<td>testCases.TC001_AccountSignupTest@1e1237ab</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -126,25 +120,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: Jimcarry20Nov@gmail.com, Apple123, Valid</td>
-<td></td>
-<td>88</td>
-<td>testCases.TC003_LoginDDT@4c82b5df</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDDT.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: Johncook@gmail.com, Papaya234, Invalid</td>
-<td></td>
-<td>63</td>
-<td>testCases.TC003_LoginDDT@4c82b5df</td></tr>
-<tr>
-<td title='testCases.TC002_Login.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_Login</td>
-<td></td>
-<td>13</td>
-<td>testCases.TC002_Login@7a687d8d</td></tr>
-<tr>
 <td title='testCases.TC001_AccountSignupTest.verify_AccountSignup()'><b>verify_AccountSignup</b><br>Test class: testCases.TC001_AccountSignupTest</td>
-<td></td>
-<td>9</td>
-<td>testCases.TC001_AccountSignupTest@7a8341c1</td></tr>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testCases.BaseClass.setup(BaseClass.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1903137985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1903137985'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testCases.BaseClass.setup(BaseClass.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC001_AccountSignupTest@1e1237ab</td></tr>
 </table><p>
 </body>
 </html>

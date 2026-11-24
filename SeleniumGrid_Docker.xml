@@ -28,4 +28,27 @@
 
     </test> <!-- Test -->
     
+  <test thread-count="5" name="SeleniumGrid-Docker-Test2">
+     <parameter name="os" value="linux"></parameter>
+     <parameter name="browser" value="edge"></parameter>
+     
+     <groups>
+      <run>
+       <!--<include name="Sanity"></include>-->
+        <include name="Regression"></include> 
+        <!--  exclude name="regression"></exclude>-->
+        <!-- include name = "functional"></include> -->
+      </run>
+    </groups>
+    
+    <classes>
+      <!--class name="testCases.BaseClass"/>-->
+      <class name="testCases.TC001_AccountSignupTest"/>
+      <class name="testCases.TC002_Login"/>
+      <class name="testCases.TC003_LoginDDT"/>
+    </classes>
+
+    </test> <!-- Test -->
+    
+    
 </suite> <!-- Suite -->

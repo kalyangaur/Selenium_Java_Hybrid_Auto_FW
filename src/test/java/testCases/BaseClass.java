@@ -108,11 +108,10 @@ public class BaseClass
 	    	    	System.out.println("No Matching browser");
 	    	    }
                 
-	    	    URL gridURL = URI.create("http://localhost:4444/wd/hub").toURL();
-	    	    if(gridURL!=null)
-	    	    {
-	    	      driver = new RemoteWebDriver(gridURL, objcapabilities);
-	    	    }
+				String remoteUrl = System.getenv().getOrDefault(
+						"SELENIUM_REMOTE_URL", "http://localhost:4444");
+				URL gridURL = URI.create(remoteUrl).toURL();
+				driver = new RemoteWebDriver(gridURL, objcapabilities);
 	    	}
 	    	
 	    	    //Local Machine Execution

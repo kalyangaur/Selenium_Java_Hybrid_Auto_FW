@@ -238,3 +238,136 @@
 2026-11-23 18:21:46 [TestNG-tests-1] INFO  Log - Signup filling details started
 2026-11-23 18:21:55 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
 2026-11-23 18:21:55 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-23 18:35:00 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-23 18:35:07 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-23 18:35:08 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-23 18:35:13 [TestNG-tests-2] ERROR Log - Test failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/login">...</a> is not clickable at point (704, 40). Other element would receive the click: <iframe id="aswift_4" name="aswift_4" style="min-height: auto !important; max-height: none !important; min-width: auto !important; max-width: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20261118/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=5&amp;uci=a!5" data-google-container-id="a!5" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COTwjOyTnpgDFTFGLAUdbZkNaQ" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=158.0.4370.33)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [db5485f3d6cf717d9b852b8d867b48e8, clickElement {id=f.774AD96349904B0D9208BA6066EF33AD.d.92076B4AB9ACEAEB2EC61B9ED2536E26.e.11}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 158.0.4370.33, fedcm:accounts: true, goog:processID: 39412, ms:edgeOptions: {debuggerAddress: localhost:60454}, msedge: {msedgedriverVersion: 158.0.4370.33 (56b8f6918200..., userDataDir: C:\Users\kalya\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.68.98.176:4444/sess..., se:cdpVersion: 158.0.4370.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (db5485f3d6cf717d9b852b8d867b48e8)] -> xpath: //a[normalize-space()='Signup / Login']]
+Session ID: db5485f3d6cf717d9b852b8d867b48e8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
+	at pageObject.HomePage.clickSignupLogin(HomePage.java:20)
+	at testCases.TC001_AccountSignupTest.verify_AccountSignup(TC001_AccountSignupTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-11-23 18:35:16 [TestNG-tests-1] INFO  Log - Signup filling details started
+2026-11-23 18:35:27 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
+2026-11-23 18:35:28 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-23 18:36:06 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-23 18:36:08 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-23 18:36:09 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-23 18:36:12 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-23 18:36:16 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-23 18:36:18 [TestNG-tests-1] ERROR Log - Test failed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='Name']'
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at pageObject.BasePage.waitForVisibility(BasePage.java:27)
+	at pageObject.AccountSignupPage.setName(AccountSignupPage.java:28)
+	at testCases.TC001_AccountSignupTest.verify_AccountSignup(TC001_AccountSignupTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=157.0.8103.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a4f5432483e2f2a5d5be7acd6724d944, findElement {using=xpath, value=//input[@placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.80, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\kalya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52192}, goog:processID: 20228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.68.98.176:4444/sess..., se:cdpVersion: 157.0.8103.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4f5432483e2f2a5d5be7acd6724d944
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:457)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:451)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy38.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 23 more
+2026-11-23 18:36:24 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-23 18:36:24 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-23 18:40:59 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-23 18:41:01 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-23 18:41:02 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-23 18:41:04 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-23 18:41:05 [TestNG-tests-1] INFO  Log - Signup filling details started
+2026-11-23 18:41:07 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-23 18:41:11 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
+2026-11-23 18:41:12 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-23 18:41:14 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-23 18:41:14 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-24 16:15:43 [main] INFO  Log - Test execution started
+2026-11-24 16:15:46 [main] INFO  Log - Signup Login process started
+2026-11-24 16:15:49 [main] INFO  Log - Signup filling details started
+2026-11-24 16:15:56 [main] INFO  Log - Verify SignUp is successfull
+2026-11-24 16:15:56 [main] INFO  Log - Signup completed successfully
+2026-11-24 16:22:16 [main] INFO  Log - Test execution TC002_Login started
+2026-11-24 16:22:21 [main] INFO  Log - Login process started
+2026-11-24 16:22:28 [main] INFO  Log - Login Successfull
+2026-11-24 17:04:04 [main] INFO  Log - Test execution TC002_Login started
+2026-11-24 17:04:05 [main] INFO  Log - Login process started
+2026-11-24 17:04:10 [main] INFO  Log - Login Successfull

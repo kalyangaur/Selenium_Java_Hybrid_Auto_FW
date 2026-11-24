@@ -23,13 +23,16 @@ import org.apache.commons.io.FileUtils;
 import org.testng.annotations.Listeners;
 import utilities.ReportingListener;
 
-@Listeners({ReportingListener.class}) 
+@Listeners({ReportingListener.class}) //Adding listener to the base class to generate Allure report. 
+//This listener will be applied to all the test classes that extend this base class.	
+//This base class is used to initialize the driver and read the properties file. All the test classes will extend this base class to get the driver and properties file.
 public class BaseClass 
 {
 	public WebDriver driver;
 	public Properties p;
     
 	//Parallel testing driver thread creation
+	//ThreadLocal is a class that provides thread-local variables. Each thread accessing such a variable (via its get or set method) has its own, independently initialized copy of the variable. ThreadLocal instances are typically private static fields in classes that wish to associate state with a thread.
 	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 		
 	public WebDriver initialize_driver() 
@@ -71,14 +74,18 @@ public class BaseClass
 	    	
 	    	//Remote machine execution - using Selenium Grid
 	    	//Select OS
-	    	if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
+	    	if(p.getProperty("execution_env").equalsIgnoreCase("remote")) //Reading execution environment from properties file
 	    	{
-               DesiredCapabilities objcapabilities = new  DesiredCapabilities();
+               DesiredCapabilities objcapabilities = new  DesiredCapabilities(); //Creating object of DesiredCapabilities class
                
                if("windows".equalsIgnoreCase(os)) 
                 {
             	   objcapabilities.setPlatform(Platform.WIN11);
 	    	    }
+               else if("linux".equalsIgnoreCase(os)) 
+               {
+               	objcapabilities.setPlatform(Platform.LINUX);
+                 }
                else if("mac".equalsIgnoreCase(os)) 
                 {
                 	objcapabilities.setPlatform(Platform.MAC);
@@ -101,7 +108,7 @@ public class BaseClass
 	    	    	System.out.println("No Matching browser");
 	    	    }
                 
-	    	    URL gridURL = URI.create("http://10.68.98.176:4444/").toURL();
+	    	    URL gridURL = URI.create("http://localhost:4444/wd/hub").toURL();
 	    	    if(gridURL!=null)
 	    	    {
 	    	      driver = new RemoteWebDriver(gridURL, objcapabilities);

@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
+<testng-results ignored="2" total="3" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-23T17:54:57 IST" name="Suite" finished-at="2026-11-23T17:58:01 IST" duration-ms="184156">
+  <suite started-at="2026-11-24T16:54:10 IST" name="Suite" finished-at="2026-11-24T16:54:11 IST" duration-ms="1041">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@6f1c3f18]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
-        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@58dad04a]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
+        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@13d019a4]" name="verify_login" class="testCases.TC002_Login"/>
       </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@6f1c3f18]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
-        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@58dad04a]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
-      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@13d019a4]" name="verify_login" class="testCases.TC002_Login"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-11-23T17:54:57 IST" name="chromeTest" finished-at="2026-11-23T17:55:34 IST" duration-ms="37363">
+    <test started-at="2026-11-24T16:54:10 IST" name="SeleniumGrid-Docker-Test" finished-at="2026-11-24T16:54:11 IST" duration-ms="1041">
       <class name="testCases.TC001_AccountSignupTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountSignupTest@6f1c3f18]" started-at="2026-11-23T17:54:57 IST" name="setup" finished-at="2026-11-23T17:55:07 IST" duration-ms="10525" status="PASS">
+        <test-method is-config="true" signature="cleanAllureResults()[pri:0, instance:testCases.TC001_AccountSignupTest@7b222230]" started-at="2026-11-24T16:54:10 IST" name="cleanAllureResults" finished-at="2026-11-24T16:54:10 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanAllureResults -->
+      </class> <!-- testCases.TC001_AccountSignupTest -->
+      <class name="testCases.TC002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login@13d019a4]" started-at="2026-11-24T16:54:10 IST" name="setup" finished-at="2026-11-24T16:54:11 IST" duration-ms="781" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -28,54 +32,27 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@6f1c3f18]" started-at="2026-11-23T17:55:07 IST" name="verify_AccountSignup" finished-at="2026-11-23T17:55:32 IST" duration-ms="25163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_AccountSignup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountSignupTest@6f1c3f18]" started-at="2026-11-23T17:55:33 IST" name="tearDown" finished-at="2026-11-23T17:55:34 IST" duration-ms="1071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountSignupTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2026-11-23T17:54:57 IST" name="edgeTest" finished-at="2026-11-23T17:58:01 IST" duration-ms="184155">
-      <class name="testCases.TC001_AccountSignupTest">
-        <test-method is-config="true" signature="cleanAllureResults()[pri:0, instance:testCases.TC001_AccountSignupTest@58dad04a]" started-at="2026-11-23T17:54:57 IST" name="cleanAllureResults" finished-at="2026-11-23T17:54:57 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanAllureResults -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountSignupTest@58dad04a]" started-at="2026-11-23T17:54:57 IST" name="setup" finished-at="2026-11-23T17:58:01 IST" duration-ms="184047" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'KGAUR', ip: '10.68.98.176']]>
+              <![CDATA[Could not start a new session. Unable to parse remote response:  
+Host info: host: 'KGAUR', ip: '192.168.31.43']]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'KGAUR', ip: '10.68.98.176'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:726)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
+Host info: host: 'KGAUR', ip: '192.168.31.43'
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:260)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:190)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:212)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:176)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:172)
-at testCases.BaseClass.setup(BaseClass.java:107)
+at testCases.BaseClass.setup(BaseClass.java:114)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -88,55 +65,62 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
+at org.openqa.selenium.json.Json.toType(Json.java:192)
+at org.openqa.selenium.json.Json.toType(Json.java:175)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
+... 36 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
 Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:441)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:90)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-... 25 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2828)
-at java.base/java.util.concurrent.DelayScheduler$ScheduledForkJoinTask.compute(DelayScheduler.java:510)
-at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1659)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
-at java.base/java.util.concurrent.DelayScheduler.loop(DelayScheduler.java:325)
-at java.base/java.util.concurrent.DelayScheduler.run(DelayScheduler.java:221)
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
+at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
+at org.openqa.selenium.json.Json.toType(Json.java:227)
+at org.openqa.selenium.json.Json.toType(Json.java:190)
+... 38 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@58dad04a]" started-at="2026-11-23T17:58:01 IST" name="verify_AccountSignup" finished-at="2026-11-23T17:58:01 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_login()[pri:1, instance:testCases.TC002_Login@13d019a4]" started-at="2026-11-24T16:54:11 IST" name="verify_login" finished-at="2026-11-24T16:54:11 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'KGAUR', ip: '10.68.98.176']]>
+              <![CDATA[Could not start a new session. Unable to parse remote response:  
+Host info: host: 'KGAUR', ip: '192.168.31.43']]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
-Host info: host: 'KGAUR', ip: '10.68.98.176'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:726)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
+Host info: host: 'KGAUR', ip: '192.168.31.43'
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:260)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:190)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:212)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:176)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:172)
-at testCases.BaseClass.setup(BaseClass.java:107)
+at testCases.BaseClass.setup(BaseClass.java:114)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -149,43 +133,45 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
+at org.openqa.selenium.json.Json.toType(Json.java:192)
+at org.openqa.selenium.json.Json.toType(Json.java:175)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
+... 36 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
 Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:441)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:90)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-... 25 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2828)
-at java.base/java.util.concurrent.DelayScheduler$ScheduledForkJoinTask.compute(DelayScheduler.java:510)
-at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1659)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
-at java.base/java.util.concurrent.DelayScheduler.loop(DelayScheduler.java:325)
-at java.base/java.util.concurrent.DelayScheduler.run(DelayScheduler.java:221)
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
+at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
+at org.openqa.selenium.json.Json.toType(Json.java:227)
+at org.openqa.selenium.json.Json.toType(Json.java:190)
+... 38 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_AccountSignup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountSignupTest@58dad04a]" started-at="2026-11-23T17:58:01 IST" name="tearDown" finished-at="2026-11-23T17:58:01 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login@13d019a4]" started-at="2026-11-24T16:54:11 IST" name="tearDown" finished-at="2026-11-24T16:54:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountSignupTest -->
-    </test> <!-- edgeTest -->
+      </class> <!-- testCases.TC002_Login -->
+    </test> <!-- SeleniumGrid-Docker-Test -->
   </suite> <!-- Suite -->
 </testng-results>

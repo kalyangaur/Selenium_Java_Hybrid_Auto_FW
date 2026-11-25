@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>EdgeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 24 16:39:15 IST 2026</td>
+<td>Started on:</td><td>Wed Nov 25 15:02:11 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (907 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20160 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,108 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC001_AccountSignupTest.setup()'><b>setup</b><br>Test class: testCases.TC001_AccountSignupTest<br>Parameters: Windows, edge</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
-Host info: host: &apos;KGAUR&apos;, ip: &apos;192.168.31.43&apos;
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:260)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:190)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:176)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:172)
-	at testCases.BaseClass.setup(BaseClass.java:114)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
-	at org.openqa.selenium.json.Json.toType(Json.java:192)
-	at org.openqa.selenium.json.Json.toType(Json.java:175)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
-	... 30 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
-Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
-	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
-	at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
-	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
-	at org.openqa.selenium.json.Json.toType(Json.java:227)
-	at org.openqa.selenium.json.Json.toType(Json.java:190)
-	... 32 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1041885384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1041885384'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
-Host info: host: &apos;KGAUR&apos;, ip: &apos;192.168.31.43&apos;
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:260)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:190)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:176)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:172)
-	at testCases.BaseClass.setup(BaseClass.java:114)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
-	at org.openqa.selenium.json.Json.toType(Json.java:192)
-	at org.openqa.selenium.json.Json.toType(Json.java:175)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
-	... 30 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
-Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
-	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
-	at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
-	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
-	at org.openqa.selenium.json.Json.toType(Json.java:227)
-	at org.openqa.selenium.json.Json.toType(Json.java:190)
-	... 32 more
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC001_AccountSignupTest@32256e68</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -177,95 +77,9 @@ Driver info: driver.version: RemoteWebDriver
 </tr>
 <tr>
 <td title='testCases.TC001_AccountSignupTest.verify_AccountSignup()'><b>verify_AccountSignup</b><br>Test class: testCases.TC001_AccountSignupTest</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
-Host info: host: &apos;KGAUR&apos;, ip: &apos;192.168.31.43&apos;
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:260)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:190)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:176)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:172)
-	at testCases.BaseClass.setup(BaseClass.java:114)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
-	at org.openqa.selenium.json.Json.toType(Json.java:192)
-	at org.openqa.selenium.json.Json.toType(Json.java:175)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
-	... 30 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
-Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
-	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
-	at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
-	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
-	at org.openqa.selenium.json.Json.toType(Json.java:227)
-	at org.openqa.selenium.json.Json.toType(Json.java:190)
-	... 32 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1738299300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1738299300'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response:  
-Host info: host: &apos;KGAUR&apos;, ip: &apos;192.168.31.43&apos;
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:228)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:52)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:260)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:190)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:176)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:172)
-	at testCases.BaseClass.setup(BaseClass.java:114)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 
-	at org.openqa.selenium.json.Json.toType(Json.java:192)
-	at org.openqa.selenium.json.Json.toType(Json.java:175)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:97)
-	... 30 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
-Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:615)
-	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:462)
-	at org.openqa.selenium.json.MapCoercer.lambda$apply$0(MapCoercer.java:67)
-	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:154)
-	at org.openqa.selenium.json.Json.toType(Json.java:227)
-	at org.openqa.selenium.json.Json.toType(Json.java:190)
-	... 32 more
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC001_AccountSignupTest@32256e68</td></tr>
+<td></td>
+<td>13</td>
+<td>testCases.TC001_AccountSignupTest@385d819</td></tr>
 </table><p>
 </body>
 </html>

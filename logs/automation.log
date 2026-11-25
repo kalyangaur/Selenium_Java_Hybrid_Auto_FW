@@ -398,3 +398,91 @@ Session ID: a4f5432483e2f2a5d5be7acd6724d944
 2026-11-24 17:02:13 [main] INFO  Log - Test execution TC002_Login started
 2026-11-24 17:02:16 [main] INFO  Log - Login process started
 2026-11-24 17:02:35 [main] INFO  Log - Login Successfull
+2026-11-24 22:45:31 [main] INFO  Log - Test execution TC002_Login started
+2026-11-24 22:45:33 [main] INFO  Log - Login process started
+2026-11-24 22:45:39 [main] INFO  Log - Login Successfull
+2026-11-24 22:45:55 [main] INFO  Log - Test execution TC002_Login started
+2026-11-24 22:45:57 [main] INFO  Log - Login process started
+2026-11-24 22:46:02 [main] INFO  Log - Login Successfull
+2026-11-25 14:59:41 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-25 14:59:43 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-25 14:59:46 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-25 14:59:48 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-25 14:59:51 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-25 14:59:51 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-25 14:59:51 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-25 14:59:51 [TestNG-tests-1] INFO  Log - Signup filling details started
+2026-11-25 15:00:01 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:00:01 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-25 15:02:17 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-25 15:02:18 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-25 15:02:21 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-25 15:02:22 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-25 15:02:23 [TestNG-tests-1] ERROR Log - Test failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" data-qa="signup-button" class="btn btn-default">...</button> is not clickable at point (822, 420). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" style="min-height: auto !important; max-height: none !important; min-width: auto !important; max-width: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20261118/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=3&amp;uci=a!3" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CN_1-oboopgDFd__cwEdiHERhg" data-load-complete="true"></iframe>
+  (Session info: chrome=158.0.8127.37)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c3a7f48aaf66cca0289ed51de28e77e, clickElement {id=f.4F3D20C8701DDF4AAA6AE2B7365BC4CD.d.4CF97EE2509A7EF156147B098A2D5D67.e.889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.37, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\kalya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51477}, goog:processID: 25032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51477/devtoo..., se:cdpVersion: 158.0.8127.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c3a7f48aaf66cca0289ed51de28e77e)] -> xpath: //button[normalize-space()='Signup']]
+Session ID: 8c3a7f48aaf66cca0289ed51de28e77e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
+	at pageObject.AccountSignupPage.clickSignup(AccountSignupPage.java:38)
+	at testCases.TC001_AccountSignupTest.verify_AccountSignup(TC001_AccountSignupTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-11-25 15:02:23 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-25 15:02:28 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:02:31 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-25 15:12:00 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-25 15:12:02 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-25 15:12:03 [TestNG-tests-1] INFO  Log - Signup filling details started
+2026-11-25 15:12:11 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:12:11 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-25 15:12:17 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-25 15:12:31 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-25 15:12:32 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-25 15:12:39 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:12:39 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-25 15:45:42 [TestNG-tests-1] INFO  Log - Test execution started
+2026-11-25 15:45:43 [TestNG-tests-2] INFO  Log - Test execution started
+2026-11-25 15:45:48 [TestNG-tests-1] INFO  Log - Signup Login process started
+2026-11-25 15:45:49 [TestNG-tests-2] INFO  Log - Signup Login process started
+2026-11-25 15:45:53 [TestNG-tests-2] INFO  Log - Signup filling details started
+2026-11-25 15:45:55 [TestNG-tests-1] INFO  Log - Signup filling details started
+2026-11-25 15:46:03 [TestNG-tests-2] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:46:03 [TestNG-tests-2] INFO  Log - Signup completed successfully
+2026-11-25 15:46:05 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
+2026-11-25 15:46:05 [TestNG-tests-1] INFO  Log - Signup completed successfully

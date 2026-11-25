@@ -1,59 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-24T17:00:50 UTC" name="Suite" finished-at="2026-11-24T17:02:36 UTC" duration-ms="105507">
+  <suite started-at="2026-11-25T15:45:31 IST" name="Selenium Grid Suite" finished-at="2026-11-25T15:46:05 IST" duration-ms="33791">
     <groups>
       <group name="Master">
-        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@35adf623]" name="verify_login" class="testCases.TC002_Login"/>
-        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@4f281aaf]" name="verify_login" class="testCases.TC002_Login"/>
+        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@2b736fee]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
+        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@664e848c]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
       </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@35adf623]" name="verify_login" class="testCases.TC002_Login"/>
-        <method signature="TC002_Login.verify_login()[pri:1, instance:testCases.TC002_Login@4f281aaf]" name="verify_login" class="testCases.TC002_Login"/>
-      </group> <!-- Regression -->
+      <group name="Sanity">
+        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@2b736fee]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
+        <method signature="TC001_AccountSignupTest.verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@664e848c]" name="verify_AccountSignup" class="testCases.TC001_AccountSignupTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2026-11-24T17:00:50 UTC" name="SeleniumGrid-Docker-Test" finished-at="2026-11-24T17:02:00 UTC" duration-ms="69878">
-      <class name="testCases.TC002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login@35adf623]" started-at="2026-11-24T17:00:50 UTC" name="setup" finished-at="2026-11-24T17:01:50 UTC" duration-ms="60166" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:1, instance:testCases.TC002_Login@35adf623]" started-at="2026-11-24T17:01:51 UTC" name="verify_login" finished-at="2026-11-24T17:01:59 UTC" duration-ms="8430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login@35adf623]" started-at="2026-11-24T17:02:00 UTC" name="tearDown" finished-at="2026-11-24T17:02:00 UTC" duration-ms="192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_Login -->
-    </test> <!-- SeleniumGrid-Docker-Test -->
-    <test started-at="2026-11-24T17:02:00 UTC" name="SeleniumGrid-Docker-Test2" finished-at="2026-11-24T17:02:36 UTC" duration-ms="35477">
+    <test started-at="2026-11-25T15:45:31 IST" name="EdgeTest" finished-at="2026-11-25T15:46:04 IST" duration-ms="32944">
       <class name="testCases.TC001_AccountSignupTest">
-        <test-method is-config="true" signature="cleanAllureResults()[pri:0, instance:testCases.TC001_AccountSignupTest@114a5e0]" started-at="2026-11-24T17:00:49 UTC" name="cleanAllureResults" finished-at="2026-11-24T17:00:50 UTC" duration-ms="777" status="PASS">
+        <test-method is-config="true" signature="cleanAllureResults()[pri:0, instance:testCases.TC001_AccountSignupTest@664e848c]" started-at="2026-11-25T15:45:31 IST" name="cleanAllureResults" finished-at="2026-11-25T15:45:31 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanAllureResults -->
-      </class> <!-- testCases.TC001_AccountSignupTest -->
-      <class name="testCases.TC002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login@4f281aaf]" started-at="2026-11-24T17:02:00 UTC" name="setup" finished-at="2026-11-24T17:02:13 UTC" duration-ms="12535" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountSignupTest@664e848c]" started-at="2026-11-25T15:45:31 IST" name="setup" finished-at="2026-11-25T15:45:43 IST" duration-ms="11853" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[linux]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
@@ -65,15 +35,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:1, instance:testCases.TC002_Login@4f281aaf]" started-at="2026-11-24T17:02:13 UTC" name="verify_login" finished-at="2026-11-24T17:02:35 UTC" duration-ms="22052" status="PASS">
+        <test-method signature="verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@664e848c]" started-at="2026-11-25T15:45:43 IST" name="verify_AccountSignup" finished-at="2026-11-25T15:46:03 IST" duration-ms="19976" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login@4f281aaf]" started-at="2026-11-24T17:02:35 UTC" name="tearDown" finished-at="2026-11-24T17:02:36 UTC" duration-ms="368" status="PASS">
+        </test-method> <!-- verify_AccountSignup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountSignupTest@664e848c]" started-at="2026-11-25T15:46:04 IST" name="tearDown" finished-at="2026-11-25T15:46:04 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_Login -->
-    </test> <!-- SeleniumGrid-Docker-Test2 -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.TC001_AccountSignupTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-11-25T15:45:31 IST" name="ChromeTest" finished-at="2026-11-25T15:46:05 IST" duration-ms="33791">
+      <class name="testCases.TC001_AccountSignupTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountSignupTest@2b736fee]" started-at="2026-11-25T15:45:31 IST" name="setup" finished-at="2026-11-25T15:45:41 IST" duration-ms="10030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AccountSignup()[pri:1, instance:testCases.TC001_AccountSignupTest@2b736fee]" started-at="2026-11-25T15:45:41 IST" name="verify_AccountSignup" finished-at="2026-11-25T15:46:05 IST" duration-ms="23394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AccountSignup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountSignupTest@2b736fee]" started-at="2026-11-25T15:46:05 IST" name="tearDown" finished-at="2026-11-25T15:46:05 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountSignupTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Selenium Grid Suite -->
 </testng-results>

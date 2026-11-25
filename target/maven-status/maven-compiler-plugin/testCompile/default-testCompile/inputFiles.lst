@@ -1,13 +1,13 @@
-/workspace/src/test/java/pageObject/AccountSignupDetailsPage.java
-/workspace/src/test/java/pageObject/AccountSignupPage.java
-/workspace/src/test/java/pageObject/BasePage.java
-/workspace/src/test/java/pageObject/HomePage.java
-/workspace/src/test/java/pageObject/LoginPage.java
-/workspace/src/test/java/testCases/BaseClass.java
-/workspace/src/test/java/testCases/TC001_AccountSignupTest.java
-/workspace/src/test/java/testCases/TC002_Login.java
-/workspace/src/test/java/testCases/TC003_LoginDDT.java
-/workspace/src/test/java/utilities/DataProviders.java
-/workspace/src/test/java/utilities/ExcelUtility.java
-/workspace/src/test/java/utilities/Log.java
-/workspace/src/test/java/utilities/ReportingListener.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\pageObject\AccountSignupDetailsPage.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\pageObject\AccountSignupPage.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\pageObject\BasePage.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\pageObject\HomePage.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\pageObject\LoginPage.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\testCases\BaseClass.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\testCases\TC001_AccountSignupTest.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\testCases\TC002_Login.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\testCases\TC003_LoginDDT.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\utilities\DataProviders.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\utilities\ExcelUtility.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\utilities\Log.java
+D:\Projects\Eclipse Workspace\Selenium_Java_Hybrid_Auto_FW\src\test\java\utilities\ReportingListener.java

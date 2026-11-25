@@ -108,8 +108,7 @@ public class BaseClass
 	    	    	System.out.println("No Matching browser");
 	    	    }
                 
-				String remoteUrl = System.getenv().getOrDefault(
-						"SELENIUM_REMOTE_URL", "http://localhost:4444");
+				String remoteUrl = System.getenv().getOrDefault("SELENIUM_REMOTE_URL", "http://localhost:4444");
 				URL gridURL = URI.create(remoteUrl).toURL();
 				driver = new RemoteWebDriver(gridURL, objcapabilities);
 	    	}

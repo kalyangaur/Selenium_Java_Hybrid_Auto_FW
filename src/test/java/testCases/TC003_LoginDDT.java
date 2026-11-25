@@ -22,7 +22,7 @@ import utilities.ReportingListener;
   *  Invalid data - login failed - test passed
   * */	
 
-public class TC003_LoginDDT extends BaseClass
+public class TC003_LoginDDT extends Old_BaseClass
  {
 	 Logger logger = Log.getLogger();
 	 

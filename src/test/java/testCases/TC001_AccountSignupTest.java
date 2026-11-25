@@ -19,7 +19,7 @@ import org.apache.logging.log4j.Logger;
 
 
 
-public class TC001_AccountSignupTest extends BaseClass
+public class TC001_AccountSignupTest extends Old_BaseClass
 {   
 	  Logger logger = Log.getLogger();
 	

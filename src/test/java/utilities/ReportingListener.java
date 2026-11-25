@@ -9,7 +9,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import testCases.BaseClass;
+import testCases.Old_BaseClass;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.model.Label;
@@ -92,7 +92,7 @@ public class ReportingListener implements ITestListener
     	System.out.println("Test Failed : "+getTestMethodName(result));
 		 
 		// Object testClass = result.getInstance();
-		 WebDriver driver = BaseClass.getDriver();
+		 WebDriver driver = Old_BaseClass.getDriver();
 		 
 		 //Allure Screenshot and saveTestLog
 		 if (driver != null)

@@ -486,3 +486,21 @@ Session ID: 8c3a7f48aaf66cca0289ed51de28e77e
 2026-11-25 15:46:03 [TestNG-tests-2] INFO  Log - Signup completed successfully
 2026-11-25 15:46:05 [TestNG-tests-1] INFO  Log - Verify SignUp is successfull
 2026-11-25 15:46:05 [TestNG-tests-1] INFO  Log - Signup completed successfully
+2026-11-26 10:49:01 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 10:49:06 [main] INFO  Log - Login process started
+2026-11-26 10:49:18 [main] INFO  Log - Login Successfull
+2026-11-26 10:49:31 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 10:49:35 [main] INFO  Log - Login process started
+2026-11-26 10:49:41 [main] INFO  Log - Login Successfull
+2026-11-26 10:57:18 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 10:57:21 [main] INFO  Log - Login process started
+2026-11-26 10:57:29 [main] INFO  Log - Login Successfull
+2026-11-26 10:57:42 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 10:57:46 [main] INFO  Log - Login process started
+2026-11-26 10:57:52 [main] INFO  Log - Login Successfull
+2026-11-26 11:01:28 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 11:01:31 [main] INFO  Log - Login process started
+2026-11-26 11:01:48 [main] INFO  Log - Login Successfull
+2026-11-26 11:01:57 [main] INFO  Log - Test execution TC002_Login started
+2026-11-26 11:02:00 [main] INFO  Log - Login process started
+2026-11-26 11:02:04 [main] INFO  Log - Login Successfull

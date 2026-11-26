@@ -16,7 +16,9 @@ public class LoginPage extends BasePage
 		// TODO Auto-generated constructor stub
 	}
 
-	//Login in Elements
+	
+	//pagefactory elements identification
+	//Login Page Elements 
 	@FindBy(xpath="//input[@data-qa='login-email']")	
 	WebElement txtEmailID;
 	   
@@ -31,7 +33,8 @@ public class LoginPage extends BasePage
 	   
 	@FindBy(xpath="//a[normalize-space()='Logout']")
 	WebElement lnkLogout;
-	   
+	 
+	//Login Page Methods
 	public void setEmail(String emailID)
 	{
 		waitForVisibility(txtEmailID).sendKeys(emailID);

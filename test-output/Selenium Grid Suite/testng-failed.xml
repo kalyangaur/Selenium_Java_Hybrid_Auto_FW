@@ -10,12 +10,26 @@
     <classes>
       <class name="testCases.TC001_AccountSignupTest">
         <methods>
-          <include name="setup"/>
           <include name="verify_AccountSignup"/>
-          <include name="tearDown"/>
           <include name="cleanAllureResults"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.TC001_AccountSignupTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.TC001_AccountSignupTest">
+        <methods>
+          <include name="verify_AccountSignup"/>
+          <include name="cleanAllureResults"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountSignupTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Selenium Grid Suite] -->

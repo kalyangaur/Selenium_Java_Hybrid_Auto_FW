@@ -8,4 +8,4 @@ WORKDIR /workspace
 # on the host. Maven dependencies are cached in the named volume.
 RUN java -version && mvn -version
 
-CMD ["mvn", "clean", "test"]
+CMD ["sh", "-c", "exec mvn clean test -Dsurefire.suiteXmlFiles=${TESTNG_SUITE:-SeleniumGrid_Docker.xml}"]

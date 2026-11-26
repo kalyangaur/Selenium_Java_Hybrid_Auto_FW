@@ -56,11 +56,6 @@ public class BaseClass
         return tdriver.get();
     }
 
-    /**
-     * Legacy helper kept so existing callers still compile. It now reuses the same
-     * option handling as setup(). If nothing calls it, delete it.
-     */
-    
     @BeforeSuite(alwaysRun = true)
     public void cleanAllureResults() throws IOException
     {

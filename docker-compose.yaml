@@ -56,6 +56,12 @@ services:
       SE_NODE_SESSION_TIMEOUT: "300"
     networks:
       - selenium-grid
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:5555/status | grep -Eq '\"ready\"[[:space:]]*:[[:space:]]*true'"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
     restart: unless-stopped
 
   edge:
@@ -96,8 +102,6 @@ services:
       BROWSER: ${BROWSER:-chrome}
       HEADLESS: ${HEADLESS:-true}
       TESTNG_SUITE: ${TESTNG_SUITE:-SeleniumGrid_Docker.xml}
-      # Override this from the command line if your project uses another suite path.
-      MAVEN_ARGS: ${MAVEN_ARGS:-clean test}
     depends_on:
       selenium-hub:
         condition: service_healthy
@@ -105,10 +109,12 @@ services:
         condition: service_healthy
       edge:
         condition: service_healthy
+      firefox:
+        condition: service_healthy
     networks:
       - selenium-grid
     profiles: ["tests"]
-    command: ["sh", "-c", "mvn $${MAVEN_ARGS} -Dsurefire.suiteXmlFiles=$${TESTNG_SUITE}"]
+    command: ["sh", "-c", "exec mvn clean test -Dsurefire.suiteXmlFiles=$${TESTNG_SUITE}"]
     init: true
 
 networks:
